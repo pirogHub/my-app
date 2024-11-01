@@ -18,9 +18,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "checkJs": true,
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    ".prettierrc.js",
+    "src/**/*",
+    ".eslintrc.js",
+    "postcss.config.js",
+    "tailwind.config.js"
   ]
 }
